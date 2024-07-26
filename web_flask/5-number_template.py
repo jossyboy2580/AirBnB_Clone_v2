@@ -56,12 +56,14 @@ def python_text(text='is cool'):
     text = "".join(text_list)
     return f'Python {text}'
 
+
 @app.route("/number/<int:number>", strict_slashes=False)
 def number_route(number):
     """
     A function for printing a routed number
     """
     return f'{number} is a number'
+
 
 @app.route("/number_template/<int:number>", strict_slashes=False)
 def number_template_route(number):

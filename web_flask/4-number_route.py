@@ -55,6 +55,7 @@ def python_text(text='is cool'):
     text = "".join(text_list)
     return f'Python {text}'
 
+
 @app.route("/number/<int:number>", strict_slashes=False)
 def number_route(number):
     """

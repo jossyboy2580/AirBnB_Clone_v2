@@ -19,7 +19,7 @@ def hello_world():
 
 
 @app.route("/hbnb", strict_slashes=False)
-def hello_world():
+def hbnb():
     """
     A function called when a user accesses the hbnb
     page of our app
